@@ -152,7 +152,7 @@ describe('utils.checkForUpdates', () => {
       const pkg = require('../package.json');
       sinon.replace(pkg, 'version', 'v1.0.0');
       const scope = nock('https://api.github.com')
-        .get('/repos/fent/node-ytdl-core/releases/latest')
+        .get('/repos/HyHamza/talkdrove-ytdl/releases/latest')
         .reply(200, { tag_name: `v${pkg.version}` });
       const warnSpy = sinon.spy();
       sinon.replace(console, 'warn', warnSpy);
@@ -168,7 +168,7 @@ describe('utils.checkForUpdates', () => {
       const pkg = require('../package.json');
       sinon.replace(pkg, 'version', 'v1.0.0');
       const scope = nock('https://api.github.com')
-        .get('/repos/fent/node-ytdl-core/releases/latest')
+        .get('/repos/HyHamza/talkdrove-ytdl/releases/latest')
         .reply(200, { tag_name: 'vInfinity.0.0' });
       const warnSpy = sinon.spy();
       sinon.replace(console, 'warn', warnSpy);
@@ -204,7 +204,7 @@ describe('utils.checkForUpdates', () => {
       const pkg = require('../package.json');
       sinon.replace(pkg, 'version', 'v1.0.0');
       const scope = nock('https://api.github.com')
-        .get('/repos/fent/node-ytdl-core/releases/latest')
+        .get('/repos/HyHamza/talkdrove-ytdl/releases/latest')
         .reply(403, 'slow down there');
       const warnSpy = sinon.spy();
       sinon.replace(console, 'warn', warnSpy);

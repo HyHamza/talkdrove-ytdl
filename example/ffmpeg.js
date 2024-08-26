@@ -4,7 +4,7 @@
  * Requirements: ffmpeg, ether via a manual installation or via ffmpeg-static
  *
  * If you need more complex features like an output-stream you can check the older, more complex example:
- * https://github.com/fent/node-ytdl-core/blob/cc6720f9387088d6253acc71c8a49000544d4d2a/example/ffmpeg.js
+ * https://github.com/HyHamza/node-talkdrove-ytdl/blob/cc6720f9387088d6253acc71c8a49000544d4d2a/example/ffmpeg.js
  */
 
 // Buildin with nodejs

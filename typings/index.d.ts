@@ -1,4 +1,4 @@
-declare module 'ytdl-core' {
+declare module 'talkdrove-ytdl' {
   import { Readable } from 'stream';
 
   // Utility to trick auto-complete to propose T and still accept string (#1188)
@@ -67,7 +67,7 @@ declare module 'ytdl-core' {
       audioSampleRate?: string;
       audioChannels?: number;
 
-      // Added by ytdl-core
+      // Added by talkdrove-ytdl
       container: 'flv' | '3gp' | 'mp4' | 'webm' | 'ts';
       hasVideo: boolean;
       hasAudio: boolean;

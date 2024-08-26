@@ -19,7 +19,7 @@ const video = ytdl(videoID, {
   requestOptions: {
     headers: {
       cookie: COOKIE,
-      // Optional. If not given, ytdl-core will try to find it.
+      // Optional. If not given, talkdrove-ytdl will try to find it.
       // You can find this by going to a video's watch page, viewing the source,
       // and searching for "ID_TOKEN".
       // 'x-youtube-identity-token': 1324,

@@ -14,7 +14,7 @@ const videos = {
 
 
 process.env.YTDL_NO_UPDATE = 'true';
-describe('Try using ytdl-core without mocking', () => {
+describe('Try using talkdrove-ytdl without mocking', () => {
   before(() => {
     nock.cleanAll();
     nock.enableNetConnect();

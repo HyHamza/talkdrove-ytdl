@@ -1,25 +1,19 @@
 {
-  "name": "ytdl-core",
+  "name": "talkdrove-ytdl-core",
   "description": "YouTube video downloader in pure javascript.",
   "keywords": [
     "youtube",
     "video",
     "download"
   ],
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/fent/node-ytdl-core.git"
+    "url": "git://github.com/HyHamza/talkdrove-ytdl-core.git"
   },
-  "author": "fent <fentbox@gmail.com> (https://github.com/fent)",
+  "author": "HyHamza <HyHamzabox@gmail.com> (https://github.com/HyHamza)",
   "contributors": [
-    "Tobias Kutscha (https://github.com/TimeForANinja)",
-    "Andrew Kelley (https://github.com/andrewrk)",
-    "Mauricio Allende (https://github.com/mallendeo)",
-    "Rodrigo Altamirano (https://github.com/raltamirano)",
-    "Jim Buck (https://github.com/JimmyBoh)",
-    "Paweł Ruciński (https://github.com/Roki100)",
-    "Alexander Paolini (https://github.com/Million900o)"
+    "Hamza (https://github.com/HyHamza)"
   ],
   "main": "./lib/index.js",
   "types": "./typings/index.d.ts",
