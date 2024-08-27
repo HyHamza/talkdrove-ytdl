@@ -1,0 +1,58 @@
+{
+  "name": "talkdrove-ytdl",
+  "description": "YouTube video downloader in pure javascript created by Hamza.",
+  "keywords": [
+    "youtube",
+    "video",
+    "download",
+    "talkdrove",
+    "Hamza"
+  ],
+  "version": "1.0.2",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HyHamza/talkdrove-ytdl.git"
+  },
+  "author": "HyHamza <talkdrove@gmail.com> (https://github.com/HyHamza)",
+  "contributors": [
+    "Hamza (https://github.com/HyHamza)"
+  ],
+  "main": "./lib/index.js",
+  "types": "./typings/index.d.ts",
+  "files": [
+    "lib",
+    "typings"
+  ],
+  "scripts": {
+    "test": "nyc --reporter=lcov --reporter=text-summary npm run test:unit",
+    "test:unit": "mocha --ignore test/irl-test.js test/*-test.js --timeout 4000",
+    "test:irl": "mocha --timeout 16000 test/irl-test.js",
+    "lint": "eslint ./",
+    "lint:fix": "eslint --fix ./",
+    "lint:typings": "tslint typings/index.d.ts",
+    "lint:typings:fix": "tslint --fix typings/index.d.ts"
+  },
+  "dependencies": {
+    "m3u8stream": "^0.8.6",
+    "miniget": "^4.2.3",
+    "sax": "^1.1.3",
+    "talkdrove-ytdl": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "assert-diff": "^3.0.1",
+    "dtslint": "^3.6.14",
+    "eslint": "^6.8.0",
+    "mocha": "^7.0.0",
+    "muk-require": "^1.2.0",
+    "nock": "^13.0.4",
+    "nyc": "^15.0.0",
+    "sinon": "^9.0.0",
+    "stream-equal": "~1.1.0",
+    "typescript": "^3.9.7"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "license": "MIT"
+}
