@@ -1,17 +1,20 @@
-> [!IMPORTANT]  
-> Active development on this repository has been paused since 2023-07-14. While it may still function for some scenarios, please be aware that support is now handled solely by the community, and PRs are currently not merged to the repo. For ongoing updates, we encourage you to explore forks like @distube/talkdrove-ytdl. We may revisit development in the future. Thank you for your interest and long-lasting support!  
-> Best Regards TFAN, 2024-08-13
+# Hey there! talkdrove-ytdl is created by Hamza, all the docs are wrriten below
+
+
+
 
 # talkdrove-ytdl
 
 ![Depfu](https://img.shields.io/depfu/HyHamza/talkdrove-ytdl)
 [![codecov](https://codecov.io/gh/HyHamza/talkdrove-ytdl/branch/master/graph/badge.svg)](https://codecov.io/gh/HyHamza/talkdrove-ytdl)
-[![Discord](https://img.shields.io/discord/484464227067887645.svg)](https://discord.gg/V3vSCs7)
 
-Yet another YouTube downloading module. Written with only Javascript and a node-friendly streaming interface.
+Yet another YouTube downloading module. Written with only Javascript and a node-friendly streaming interface by Hamza.
 
 # Support
-You can contact us for support on our [chat server](https://discord.gg/V3vSCs7)
+You can contact us for support on our [TalkDrove](https://chat.talkdrove.cc.nf/talkdrove)
+
+# WhatsApp channel:
+Here is our WhatsApp channel link [WhatsApp](https://whatsapp.com/channel/0029VaNRcHSJP2199iMQ4W0l)
 
 # Usage
 
@@ -22,8 +25,8 @@ const talkdroveYtdl = require('talkdrove-ytdl');
 // TypeScript: import * as talkdrove-ytdl from 'talkdrove-ytdl'; with --allowSyntheticDefaultImports
 // TypeScript: import talkdrove-ytdl = require('talkdrove-ytdl'); with neither of the above
 
-talkdroveYtdl('http://www.youtube.com/watch?v=aqz-KE-bpKQ')
-  .pipe(fs.createWriteStream('video.mp4'));
+talkdroveYtdl('https://www.youtube.com/watch?v=jBSyDNLtFWw')
+  .pipe(fs.createWriteStream('talkdrove-video.mp4'));
 ```
 
 
@@ -204,17 +207,6 @@ Or for Yarn users:
 yarn add talkdrove-ytdl@latest
 ```
 
-Make sure you're installing the latest version of talkdrove-ytdl to keep up with the latest fixes.
-
-If you're using a bot or app that uses talkdrove-ytdl such as [talkdrove-ytdl-discord](https://github.com/amishshah/talkdrove-ytdl-discord) or [discord-player](https://github.com/Androz2091/discord-player), it may be dependent on an older version. To update its talkdrove-ytdl version, that library has to update its `package.json` file, you can't simply change the version on your project's `package.json`, the app will still use its own older version of talkdrove-ytdl.
-
-Look in their repo to see if they already have an active pull request that updates talkdrove-ytdl. If they don't, open an issue asking them to update talkdrove-ytdl, or better yet, fork the project and submit a pull request with the updated version.
-
-While you wait for the pull reques to merge, you can point to its branch in your `package.json`
-
-```json
-  "talkdrove-ytdl-discord": "amishshah/talkdrove-ytdl-discord#dependabot/npm_and_yarn/talkdrove-ytdl-2.0.1"
-```
 
 ## Update Checks
 
@@ -239,4 +231,9 @@ Tests are written with [mocha](https://mochajs.org)
 
 ```bash
 npm test
+```
+# Thanks for using talkdrove-ytdl
+
+```Created by Hamza!
+Powered by TalkDrove
 ```

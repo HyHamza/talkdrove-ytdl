@@ -1,12 +1,14 @@
 {
   "name": "talkdrove-ytdl",
-  "description": "YouTube video downloader in pure javascript.",
+  "description": "YouTube video downloader in pure javascript created by Hamza.",
   "keywords": [
     "youtube",
     "video",
-    "download"
+    "download",
+    "talkdrove",
+    "Hamza"
   ],
-  "version": "1.0.0",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/HyHamza/talkdrove-ytdl.git"
